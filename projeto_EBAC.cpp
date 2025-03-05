@@ -156,7 +156,7 @@ int main()
 	printf("\t3- deletar nomes\n"); 
     printf("\t4- sair do sistema\n\n");
     
-   printf("opção: "); //fim do menu
+   printf("digite a opção desejada  "); //fim do menu
     
     
 	scanf("%d", &opcao ); //armazenando a escolha do usuário 
