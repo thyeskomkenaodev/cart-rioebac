@@ -139,13 +139,35 @@ int deletar()
 int main()
     {
     
-	int opcao=0; //definindo as variave
+	int opcao=0; //definindo as variaveis
 	int laco=1;
 	for(laco=1; laco=1;)   
+	char thyesko[10] = "a";
+	int comparacao;
 	
+	printf("### cartório de dados da EBAC ###\n\n");
+    printf("loginde administrador! digite sua senha:\n\n");
+    scanf("%s", thyesko);
+    
+    comparacao = strcmp(senhadigitada, "admin");
+    
+    if(comparcao == 0)
+	
+
 	{
+	
+	
+	
+    
+	
+  
+   
+			
+			
+		
 		
 	system("cls"); //responsavel por limpar a tela
+	{
 	
 	
    	setlocale(LC_ALL, "portuguese"); //definindo as linguagens
@@ -156,52 +178,54 @@ int main()
 	printf("\t3- deletar nomes\n"); 
     printf("\t4- sair do sistema\n\n");
     
-   printf("digite a opção desejada  "); //fim do menu
+    printf("digite a opção desejada  "); //fim do menu
     
     
 	scanf("%d", &opcao ); //armazenando a escolha do usuário 
 	
 	system("cls");
 	
-	switch(opcao) //inicio da seleção do menu
-{
+     	switch(opcao) //inicio da seleção do menu
+   {
 	
-	case 1: //chamadas de funções
-	registro();
-	break;	
+    	case 1: //chamadas de funções
+    	registro();
+    	break;	
 	
 		
-	case 2:
-	consultar();
-	break;
+    	case 2:
+     	consultar();
+     	break;
 	
 
-	case 3:
-	deletar();
-	break;
+    	case 3:
+    	deletar();
+    	break;
 		
-	case 4:
-	printf("obrigado por ultilizar nosso sistema!\n\n");
-	return 0;
-	break;
+    	case 4:
+     	printf("obrigado por ultilizar nosso sistema!\n\n");
+    	return 0;
+    	break;
 	
 	
 	
 	
 	
-    default:	
-    	printf("essa opcao nao esta disponivel!\n");
-	system("pause");
-	break;
+     default:	
+     	printf("essa opcao nao esta disponivel!\n");
+    	system("pause");
+    	break;
 		
 		
-	
+     } 
 		
 		}
 	
-}
+       {
+	   
+	   
 
-}
+    }
 		
 
 	
